@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hy5zagn=39-(j_0o^%n6rehs6i63d5!(sf2-gu1vfr@6y8ecxv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.', '.herokuapp.com']
 
 
 # Application definition
@@ -120,11 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [str(BASE_DIR.joinpath('staticfiles'))]
-STATIC_ROOT = str(BASE_DIR.joinpath(staticfiles))
-STATICFILES_STORAGE='whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
