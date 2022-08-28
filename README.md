@@ -7,7 +7,8 @@ edit and delete posts.  We set up security features so one user could not use an
 and post under their name.  We have measures in place to authenticate a user.  Stay with us as we 
 improve the site and add more features and security practices.
 
-Heroku:   https://dashboard.heroku.com/apps/blog113-1/activity
+Heroku:   https://dashboard.heroku.com/apps/blog113-2/activity
 
-Github:   https://github.com/KacyClark/blog/tree/main/Blog
+Github:  https://github.com/KacyClark/113.2
 
+# 113.2
